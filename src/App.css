@@ -44,3 +44,15 @@ main{
     
 }
 
+.titulo{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.stays{
+    margin-left: 140vh;
+    color: dimgray;
+}
+
+
+

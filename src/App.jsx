@@ -14,9 +14,9 @@ function App() {
     <p className="stays">12+ stays</p>
     </div>
 
-
+    <div className="cards">
     <Card />
-    
+    </div>
     
     </main>
   );

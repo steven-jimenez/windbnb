@@ -13,7 +13,7 @@ function App() {
     <h3><b>Stays in Finland</b></h3>
     <p className="stays">12+ stays</p>
     </div>
-
+    
     <div className="cards">
     <Card />
     </div>

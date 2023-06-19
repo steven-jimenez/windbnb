@@ -11,6 +11,29 @@
   border: none;
 }
 
+.indice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .indice {
+    width: 20rem;
+    height: 25rem;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .indice {
+    width: 20rem;
+    height: 25rem;
+    padding: 5px;
+  }
+}
+
 @media (max-width: 768px) {
   .card {
     width: 20rem;
@@ -35,6 +58,7 @@ main{
     flex-direction: column;
    
 }
+
 
 
 .nav{

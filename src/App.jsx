@@ -8,10 +8,12 @@ function App() {
   return (
     <main>
 
+    <div className="indice"> 
     <Nav />
     <div className="titulo">
     <h3><b>Stays in Finland</b></h3>
     <p className="stays">12+ stays</p>
+    </div>
     </div>
     
     <div className="cards">

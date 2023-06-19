@@ -26,8 +26,9 @@ export default function Card(){
 
   // Puedes ver la variable data en consola.
   console.log(data);
-
-
+  
+  
+ 
   return(
     <>
 
@@ -42,7 +43,13 @@ export default function Card(){
             
           <div className="cardContainer">
 
+           {el.superHost && <div className="superhost"><p><b>SUPER HOST</b></p>
               
+          </div>}
+
+
+              
+
               <div className='types'>
                 <p>{el.type}</p>
               </div>

@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+
+
+.card {
+  width: 25rem;
+  height: 30rem;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 20rem;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 15rem;
+    height: 20rem;
+  }
+}
+
+
 main{
     margin-top:25px;
     min-height: 100vh;
@@ -87,6 +110,15 @@ main{
     margin-top: 15px;
     justify-content: space-between;
     color:dimgray;
+}
+
+.superhost > p{
+
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 2px;
+
 }
 
 .cardContainer>.rating{
